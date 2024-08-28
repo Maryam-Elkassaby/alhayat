@@ -1,0 +1,19 @@
+.bg{
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: var(--light-main-color) url('../../assets/bg.png');
+}
+.paragraph{
+  max-width: 650px;
+  margin: auto;
+}
+.service{
+  background: transparent ;
+  border:1px solid var(--main-color);
+  box-shadow: 0 0 2px 1px var(--main-color);
+}
+.icon_style{
+  color: var(--main-color);
+}

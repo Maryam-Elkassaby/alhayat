@@ -1,0 +1,38 @@
+.bg{
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: var(--light-main-color) url('../../assets/bg.png');
+}
+.heading_style{
+  font-size: 30px;
+  line-height: 30px;
+}
+.hr_style{
+  width: 100px;
+  border: 1px solid #000;
+}
+.paragraph_style{
+  font-size: 18px;
+  line-height: 30px;
+}
+@media (max-width : 991px){
+  .heading_style{
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .hr_style{
+    display: none;
+  }
+  .paragraph_style{
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+@media (max-width : 767px){
+  .paragraph_style{
+    font-size: 14px;
+  }
+}
