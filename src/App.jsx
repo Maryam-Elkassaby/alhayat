@@ -7,6 +7,8 @@ import Blog from './Pages/Blog/Blog';
 import Services from './Pages/Services/Services';
 import MyAccount from './Pages/MyAccount/MyAccount';
 import ContactUs from './Pages/ContactUs/ContactUs';
+import NotFound from './Pages/NotFound/NotFound';
+import HomeVisit from './Pages/HomeVisit/HomeVisit';
 
 function App() {
   const route = createBrowserRouter([
@@ -17,7 +19,8 @@ function App() {
       { path : 'services' , element : <Services /> },
       { path : 'myAccount' , element : <MyAccount /> },
       { path : 'contactUs' , element : <ContactUs /> },
-      { path : '*' , element : <MyAccount /> },
+      { path : 'homeVisit' , element : <HomeVisit /> },
+      { path : '*' , element : <NotFound /> },
     ]}
   ])
   return <>

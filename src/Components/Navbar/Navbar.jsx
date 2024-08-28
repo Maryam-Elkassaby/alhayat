@@ -20,31 +20,31 @@ export default function Navbar() {
 
           <ul className="navbar-nav me-auto mb-2 mb-lg-0 mx-auto text-center">
 
-            <li className="nav-item">
+            <li className={`${style.nav_item} nav-item`}>
               <NavLink className="nav-link" to="/">
                 الرئيسية
               </NavLink>
             </li>
 
-            <li className="nav-item">
+            <li className={`${style.nav_item} nav-item`}>
               <NavLink className="nav-link" to="bookAppointment">
                 حجز موعد
               </NavLink>
             </li>
 
-            <li className="nav-item">
+            <li className={`${style.nav_item} nav-item`}>
               <NavLink className="nav-link" to="blog">
                 المدونة
               </NavLink>
             </li>
 
-            <li className="nav-item">
+            <li className={`${style.nav_item} nav-item`}>
               <NavLink className="nav-link" to="services">
                 خدماتنا
               </NavLink>
             </li>
 
-            <li className="nav-item">
+            <li className={`${style.nav_item} nav-item`}>
               <NavLink className="nav-link" to="myAccount">
                 حسابي
               </NavLink>

@@ -55,7 +55,7 @@ export default function Footer() {
               </h3>
               <ul className={`${style.footer_links} navbar-nav text-center`}>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/">
+                  <Link className="nav-link" to="homeVisit">
                   الزيارة المنزلية
                   </Link>
                 </li>
