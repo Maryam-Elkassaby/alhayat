@@ -1,6 +1,6 @@
 import style from './S2HomeVisit.module.css';
 
-import img from '../../assets/img-6.png';
+import img from '../../assets/img-4.png';
 import { Link } from 'react-router-dom';
 
 export default function S2HomeVisit() {
@@ -8,7 +8,7 @@ export default function S2HomeVisit() {
     <section className={`mt-90`}>
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 col-md-6 col-sm-12 align-items-center">
+          <div className="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center">
               <div className="content d-flex flex-column align-items-center justify-content-center">
                 <h2 className={`${style.heading} h2 fw-bold text-center`}>
                 فوائد خدمة الزيارات المنزلية
@@ -32,13 +32,13 @@ export default function S2HomeVisit() {
                     </li>
                   </ol>
                 </div>
-                <Link to='/homeVisit' className={`btn btn-info`}>
+                <Link to='/الزيارة-المنزلية' className={`btn ${style.bg}`}>
                   قراءة المزيد
                 </Link>
               </div>
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12">
-              <div className="img">
+              <div className="img d-flex justify-content-end">
                 <img className={`img-fluid rounded-3`} src={img} alt="" />
               </div>
           </div>

@@ -55,25 +55,25 @@ export default function Footer() {
               </h3>
               <ul className={`${style.footer_links} navbar-nav text-center`}>
                 <li className="nav-item">
-                  <Link className="nav-link" to="homeVisit">
+                  <Link className="nav-link" to="الزيارة-المنزلية">
                   الزيارة المنزلية
                   </Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link className="nav-link" to="bookAppointment">
+                  <Link className="nav-link" to="العلاج-الطبيعي">
                   العلاج الطبيعى
                   </Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link className="nav-link" to="blog">
+                  <Link className="nav-link" to='خدمات-تمريضية'>
                   خدمات تمريضية
                   </Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link className="nav-link" to="services">
+                  <Link className="nav-link" to='رعاية-المسنين'>
                   رعاية المسنين
                   </Link>
                 </li>

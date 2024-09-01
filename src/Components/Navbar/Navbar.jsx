@@ -40,7 +40,7 @@ export default function Navbar() {
 
             <li className={`${style.nav_item} nav-item`}>
               <NavLink className="nav-link" to="services">
-                خدماتنا
+                خدماتنا 
               </NavLink>
             </li>
 

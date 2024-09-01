@@ -4,7 +4,7 @@ export default function SectionNineHome() {
   return <>
     <section className={`mt-5`}>
       <div className="container">
-        <div className="row bg-info rounded-3 d-flex justify-content-center align-items-center">
+        <div className={`row ${style.bg} rounded-3 d-flex justify-content-center align-items-center`}>
           <div className="col-lg-4 col-md 4 col-sm-6">
             <div className={`d-flex justify-content-center align-items-center py-4`}>
               <div>

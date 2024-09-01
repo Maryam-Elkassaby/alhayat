@@ -1,3 +1,6 @@
+.bg{
+  background: var(--light-main-color);
+}
 .heading{
   font-size: 22px;
   color: var(--white-color);

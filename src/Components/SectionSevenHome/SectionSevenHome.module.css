@@ -7,6 +7,13 @@
 .accordion-item{
   background: var(--main-color)!important;
 }
+.accordion_button{
+  position: relative;
+}
+.accordion-button::after {
+  position: absolute;
+  left: 0;
+}
 .accordion_button,
 .accordion_button:focus {
   background: var(--main-color)!important;

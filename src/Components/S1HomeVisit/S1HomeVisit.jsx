@@ -1,6 +1,7 @@
 import style from './S1HomeVisit.module.css';
 
 import img_1 from '../../assets/img-5.jpg';
+import { Link } from 'react-router-dom';
 
 export default function S1HomeVisit() {
   return <>
@@ -17,7 +18,7 @@ export default function S1HomeVisit() {
               <h2 className={`${style.heading} h2 fw-bold text-center`}>
               الزيارة المنزلية
               </h2>
-              <div className={`mt-3`}>
+              <div className={`mt-3 d-flex flex-column align-items-center justify-content-center`}>
                 <p className={``}>
                 خدمة الزيارة المنزلية تشمل الاستشارات الطبية المنزلية والفحص المخبري والتطعيم المنزلي بواسطة متخصصين، بحيت تصلك إلى باب المنزل بالترتيب المسبق سواء بالإتصال أو التواصل الإلكتروني: ليصلك أطباء متخصصين مؤهلين بدرجة عالية لزيارة المريض وتقديم الرعاية الكاملة له بمستوى عالي الجودة. 
                 </p>
@@ -27,6 +28,9 @@ export default function S1HomeVisit() {
                 <p className={``}>
                 ذلك فضلا عن التطعيم المنزلي والمتمثلة في توصيل اللقاحات والتطعيمات حتى باب المنزل، دون الاضطرار إلى مغادرة المنزل للحصول عليها في المراكز الطبية والمستشفيات، بحيت تشمل التطعيمات الأساسية الخاصة بالأطفال - اللقاحات الخاصة بالبالغين - اللقاحات الموسمية - لقاحات.
                 </p>
+                <Link to='/الزيارة-المنزلية' className={`btn ${style.bg} text-center`}>
+                  قراءة المزيد
+                </Link>
               </div>
             </div>
           </div>
